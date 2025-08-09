@@ -1,0 +1,5 @@
+// v2.0 raw
+0   // addr 0: opcode 0 (LOAD)
+4   // addr 1: operand => load literal 4
+2   // addr 2: opcode 7 (DOUBLE => ACC = 2×ACC)
+1   // addr 3: opcode 2 (STOP => halt)

@@ -1,0 +1,1762 @@
+$date
+	Fri Apr 11 20:21:13 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module micro_top $end
+$scope module microprocessor $end
+$var wire 1 ! clk $end
+$var wire 4 " data_in [3:0] $end
+$var wire 1 # reset $end
+$var wire 1 $ s9 $end
+$var wire 1 % s8 $end
+$var wire 1 & s7 $end
+$var wire 1 ' s6 $end
+$var wire 10 ( s5 [9:0] $end
+$var wire 1 ) s4 $end
+$var wire 4 * s3 [3:0] $end
+$var wire 1 + s2 $end
+$var wire 1 , s12 $end
+$var wire 1 - s11 $end
+$var wire 1 . s10 $end
+$var wire 1 / s1 $end
+$var wire 4 0 s0 [3:0] $end
+$var wire 4 1 accum [3:0] $end
+$scope module addr_gen_i0 $end
+$var wire 1 ! clk $end
+$var wire 1 + load_mar $end
+$var wire 1 # reset $end
+$var wire 1 2 s0 $end
+$var wire 1 / use_pc $end
+$var wire 4 3 pc [3:0] $end
+$var wire 4 4 mar [3:0] $end
+$var wire 4 5 data_bus [3:0] $end
+$var wire 4 6 addr_bus [3:0] $end
+$scope module four_bit_mux_i2 $end
+$var wire 1 2 sel $end
+$var wire 4 7 y [3:0] $end
+$var wire 1 8 s9 $end
+$var wire 1 9 s8 $end
+$var wire 1 : s7 $end
+$var wire 1 ; s6 $end
+$var wire 1 < s5 $end
+$var wire 1 = s4 $end
+$var wire 1 > s3 $end
+$var wire 1 ? s2 $end
+$var wire 1 @ s11 $end
+$var wire 1 A s10 $end
+$var wire 1 B s1 $end
+$var wire 1 C s0 $end
+$var wire 4 D b [3:0] $end
+$var wire 4 E a [3:0] $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 C a $end
+$var wire 1 B b $end
+$var wire 1 2 s $end
+$var wire 1 ? y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 > a $end
+$var wire 1 = b $end
+$var wire 1 2 s $end
+$var wire 1 < y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 ; a $end
+$var wire 1 : b $end
+$var wire 1 2 s $end
+$var wire 1 9 y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 8 a $end
+$var wire 1 A b $end
+$var wire 1 2 s $end
+$var wire 1 @ y $end
+$upscope $end
+$upscope $end
+$scope module four_bit_reg_i1 $end
+$var wire 1 ! clk $end
+$var wire 1 + enable $end
+$var wire 4 F q [3:0] $end
+$var wire 1 # reset $end
+$var wire 1 G s8 $end
+$var wire 1 H s7 $end
+$var wire 1 I s6 $end
+$var wire 1 J s5 $end
+$var wire 1 K s4 $end
+$var wire 1 L s3 $end
+$var wire 1 M s2 $end
+$var wire 1 N s1 $end
+$var wire 4 O s0 [3:0] $end
+$var wire 4 P q_temp [3:0] $end
+$var wire 4 Q d [3:0] $end
+$scope module DIG_D_FF_AS_1bit_i1 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 N D $end
+$var wire 1 J Q $end
+$var wire 1 R Set $end
+$var wire 1 S \~Q $end
+$var parameter 32 T Default $end
+$var reg 1 U state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i2 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 M D $end
+$var wire 1 I Q $end
+$var wire 1 V Set $end
+$var wire 1 W \~Q $end
+$var parameter 32 X Default $end
+$var reg 1 Y state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i3 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 L D $end
+$var wire 1 H Q $end
+$var wire 1 Z Set $end
+$var wire 1 [ \~Q $end
+$var parameter 32 \ Default $end
+$var reg 1 ] state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i4 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 K D $end
+$var wire 1 G Q $end
+$var wire 1 ^ Set $end
+$var wire 1 _ \~Q $end
+$var parameter 32 ` Default $end
+$var reg 1 a state $end
+$upscope $end
+$scope module four_bit_mux_i0 $end
+$var wire 4 b a [3:0] $end
+$var wire 1 + sel $end
+$var wire 4 c y [3:0] $end
+$var wire 1 d s9 $end
+$var wire 1 e s8 $end
+$var wire 1 f s7 $end
+$var wire 1 g s6 $end
+$var wire 1 h s5 $end
+$var wire 1 i s4 $end
+$var wire 1 j s3 $end
+$var wire 1 k s2 $end
+$var wire 1 l s11 $end
+$var wire 1 m s10 $end
+$var wire 1 n s1 $end
+$var wire 1 o s0 $end
+$var wire 4 p b [3:0] $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 o a $end
+$var wire 1 n b $end
+$var wire 1 + s $end
+$var wire 1 k y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 j a $end
+$var wire 1 i b $end
+$var wire 1 + s $end
+$var wire 1 h y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 g a $end
+$var wire 1 f b $end
+$var wire 1 + s $end
+$var wire 1 e y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 d a $end
+$var wire 1 m b $end
+$var wire 1 + s $end
+$var wire 1 l y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module program_ctr_i0 $end
+$var wire 1 ! clk $end
+$var wire 1 / enable $end
+$var wire 4 q q [3:0] $end
+$var wire 1 # reset $end
+$var wire 4 r s0 [3:0] $end
+$var wire 4 s q_temp [3:0] $end
+$scope module four_bit_reg_i0 $end
+$var wire 1 ! clk $end
+$var wire 1 / enable $end
+$var wire 4 t q [3:0] $end
+$var wire 1 # reset $end
+$var wire 1 u s8 $end
+$var wire 1 v s7 $end
+$var wire 1 w s6 $end
+$var wire 1 x s5 $end
+$var wire 1 y s4 $end
+$var wire 1 z s3 $end
+$var wire 1 { s2 $end
+$var wire 1 | s1 $end
+$var wire 4 } s0 [3:0] $end
+$var wire 4 ~ q_temp [3:0] $end
+$var wire 4 !" d [3:0] $end
+$scope module DIG_D_FF_AS_1bit_i1 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 | D $end
+$var wire 1 x Q $end
+$var wire 1 "" Set $end
+$var wire 1 #" \~Q $end
+$var parameter 32 $" Default $end
+$var reg 1 %" state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i2 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 { D $end
+$var wire 1 w Q $end
+$var wire 1 &" Set $end
+$var wire 1 '" \~Q $end
+$var parameter 32 (" Default $end
+$var reg 1 )" state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i3 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 z D $end
+$var wire 1 v Q $end
+$var wire 1 *" Set $end
+$var wire 1 +" \~Q $end
+$var parameter 32 ," Default $end
+$var reg 1 -" state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i4 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 y D $end
+$var wire 1 u Q $end
+$var wire 1 ." Set $end
+$var wire 1 /" \~Q $end
+$var parameter 32 0" Default $end
+$var reg 1 1" state $end
+$upscope $end
+$scope module four_bit_mux_i0 $end
+$var wire 4 2" a [3:0] $end
+$var wire 1 / sel $end
+$var wire 4 3" y [3:0] $end
+$var wire 1 4" s9 $end
+$var wire 1 5" s8 $end
+$var wire 1 6" s7 $end
+$var wire 1 7" s6 $end
+$var wire 1 8" s5 $end
+$var wire 1 9" s4 $end
+$var wire 1 :" s3 $end
+$var wire 1 ;" s2 $end
+$var wire 1 <" s11 $end
+$var wire 1 =" s10 $end
+$var wire 1 >" s1 $end
+$var wire 1 ?" s0 $end
+$var wire 4 @" b [3:0] $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 ?" a $end
+$var wire 1 >" b $end
+$var wire 1 / s $end
+$var wire 1 ;" y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 :" a $end
+$var wire 1 9" b $end
+$var wire 1 / s $end
+$var wire 1 8" y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 7" a $end
+$var wire 1 6" b $end
+$var wire 1 / s $end
+$var wire 1 5" y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 4" a $end
+$var wire 1 =" b $end
+$var wire 1 / s $end
+$var wire 1 <" y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module incrementer_i1 $end
+$var wire 4 A" a [3:0] $end
+$var wire 1 B" inc $end
+$var wire 4 C" y [3:0] $end
+$var wire 1 D" s9 $end
+$var wire 1 E" s8 $end
+$var wire 1 F" s7 $end
+$var wire 1 G" s6 $end
+$var wire 1 H" s5 $end
+$var wire 1 I" s4 $end
+$var wire 1 J" s3 $end
+$var wire 1 K" s2 $end
+$var wire 1 L" s10 $end
+$var wire 1 M" s1 $end
+$var wire 1 N" s0 $end
+$var wire 1 O" cry $end
+$scope module half_adder_i0 $end
+$var wire 1 D" a $end
+$var wire 1 B" b $end
+$var wire 1 F" cry $end
+$var wire 1 L" sum $end
+$upscope $end
+$scope module half_adder_i1 $end
+$var wire 1 G" a $end
+$var wire 1 F" b $end
+$var wire 1 I" cry $end
+$var wire 1 E" sum $end
+$upscope $end
+$scope module half_adder_i2 $end
+$var wire 1 J" a $end
+$var wire 1 I" b $end
+$var wire 1 M" cry $end
+$var wire 1 H" sum $end
+$upscope $end
+$scope module half_adder_i3 $end
+$var wire 1 N" a $end
+$var wire 1 M" b $end
+$var wire 1 O" cry $end
+$var wire 1 K" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module brainless_i2 $end
+$var wire 1 . acc_to_db $end
+$var wire 4 P" accum [3:0] $end
+$var wire 4 Q" addr_bus [3:0] $end
+$var wire 4 R" alu_out [3:0] $end
+$var wire 1 ' arith $end
+$var wire 1 ! clk $end
+$var wire 4 S" data_bus [3:0] $end
+$var wire 4 T" data_in [3:0] $end
+$var wire 1 & invert $end
+$var wire 1 $ load_acc $end
+$var wire 1 % pass $end
+$var wire 1 - read $end
+$var wire 1 # reset $end
+$var wire 1 , write $end
+$var wire 4 U" s1 [3:0] $end
+$var wire 4 V" s0 [3:0] $end
+$var wire 4 W" data_bus_temp [3:0] $end
+$var wire 4 X" alu_out_temp [3:0] $end
+$var wire 4 Y" accum_temp [3:0] $end
+$scope module alu_i0 $end
+$var wire 1 ' arith $end
+$var wire 1 Z" cin $end
+$var wire 1 & invert $end
+$var wire 1 % pass $end
+$var wire 4 [" y [3:0] $end
+$var wire 4 \" s0 [3:0] $end
+$var wire 1 ]" overfl $end
+$var wire 1 ^" cout $end
+$var wire 4 _" b [3:0] $end
+$var wire 4 `" a [3:0] $end
+$scope module and_add_i1 $end
+$var wire 1 ' add $end
+$var wire 1 Z" cin $end
+$var wire 1 % pass $end
+$var wire 4 a" y [3:0] $end
+$var wire 4 b" s2 [3:0] $end
+$var wire 4 c" s1 [3:0] $end
+$var wire 4 d" s0 [3:0] $end
+$var wire 1 ]" overfl $end
+$var wire 1 ^" cout $end
+$var wire 4 e" b [3:0] $end
+$var wire 4 f" a [3:0] $end
+$scope module four_bit_adder_i0 $end
+$var wire 1 Z" cin $end
+$var wire 1 ^" cout $end
+$var wire 1 ]" overfl $end
+$var wire 4 g" y [3:0] $end
+$var wire 1 h" s9 $end
+$var wire 1 i" s8 $end
+$var wire 1 j" s7 $end
+$var wire 1 k" s6 $end
+$var wire 1 l" s5 $end
+$var wire 1 m" s4 $end
+$var wire 1 n" s3 $end
+$var wire 1 o" s2 $end
+$var wire 1 p" s14 $end
+$var wire 1 q" s13 $end
+$var wire 1 r" s12 $end
+$var wire 1 s" s11 $end
+$var wire 1 t" s10 $end
+$var wire 1 u" s1 $end
+$var wire 1 v" s0 $end
+$var wire 1 w" cout_temp $end
+$var wire 4 x" b [3:0] $end
+$var wire 4 y" a [3:0] $end
+$scope module full_adder_i0 $end
+$var wire 1 r" a $end
+$var wire 1 q" b $end
+$var wire 1 Z" cin $end
+$var wire 1 t" cout $end
+$var wire 1 p" sum $end
+$upscope $end
+$scope module full_adder_i1 $end
+$var wire 1 i" a $end
+$var wire 1 h" b $end
+$var wire 1 t" cin $end
+$var wire 1 k" cout $end
+$var wire 1 s" sum $end
+$upscope $end
+$scope module full_adder_i2 $end
+$var wire 1 m" a $end
+$var wire 1 l" b $end
+$var wire 1 k" cin $end
+$var wire 1 o" cout $end
+$var wire 1 j" sum $end
+$upscope $end
+$scope module full_adder_i3 $end
+$var wire 1 v" a $end
+$var wire 1 u" b $end
+$var wire 1 o" cin $end
+$var wire 1 w" cout $end
+$var wire 1 n" sum $end
+$upscope $end
+$upscope $end
+$scope module four_bit_mux_i1 $end
+$var wire 4 z" a [3:0] $end
+$var wire 4 {" b [3:0] $end
+$var wire 1 ' sel $end
+$var wire 4 |" y [3:0] $end
+$var wire 1 }" s9 $end
+$var wire 1 ~" s8 $end
+$var wire 1 !# s7 $end
+$var wire 1 "# s6 $end
+$var wire 1 ## s5 $end
+$var wire 1 $# s4 $end
+$var wire 1 %# s3 $end
+$var wire 1 &# s2 $end
+$var wire 1 '# s11 $end
+$var wire 1 (# s10 $end
+$var wire 1 )# s1 $end
+$var wire 1 *# s0 $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 *# a $end
+$var wire 1 )# b $end
+$var wire 1 ' s $end
+$var wire 1 &# y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 %# a $end
+$var wire 1 $# b $end
+$var wire 1 ' s $end
+$var wire 1 ## y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 "# a $end
+$var wire 1 !# b $end
+$var wire 1 ' s $end
+$var wire 1 ~" y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 }" a $end
+$var wire 1 (# b $end
+$var wire 1 ' s $end
+$var wire 1 '# y $end
+$upscope $end
+$upscope $end
+$scope module four_bit_mux_i2 $end
+$var wire 4 +# a [3:0] $end
+$var wire 1 % sel $end
+$var wire 4 ,# y [3:0] $end
+$var wire 1 -# s9 $end
+$var wire 1 .# s8 $end
+$var wire 1 /# s7 $end
+$var wire 1 0# s6 $end
+$var wire 1 1# s5 $end
+$var wire 1 2# s4 $end
+$var wire 1 3# s3 $end
+$var wire 1 4# s2 $end
+$var wire 1 5# s11 $end
+$var wire 1 6# s10 $end
+$var wire 1 7# s1 $end
+$var wire 1 8# s0 $end
+$var wire 4 9# b [3:0] $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 8# a $end
+$var wire 1 7# b $end
+$var wire 1 % s $end
+$var wire 1 4# y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 3# a $end
+$var wire 1 2# b $end
+$var wire 1 % s $end
+$var wire 1 1# y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 0# a $end
+$var wire 1 /# b $end
+$var wire 1 % s $end
+$var wire 1 .# y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 -# a $end
+$var wire 1 6# b $end
+$var wire 1 % s $end
+$var wire 1 5# y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module not_neg_i0 $end
+$var wire 1 & invert $end
+$var wire 1 ' neg $end
+$var wire 1 :# s0 $end
+$var wire 4 ;# y [3:0] $end
+$var wire 4 <# s1 [3:0] $end
+$var wire 1 =# cry $end
+$var wire 4 ># a [3:0] $end
+$scope module incrementer_i0 $end
+$var wire 4 ?# a [3:0] $end
+$var wire 1 :# inc $end
+$var wire 4 @# y [3:0] $end
+$var wire 1 A# s9 $end
+$var wire 1 B# s8 $end
+$var wire 1 C# s7 $end
+$var wire 1 D# s6 $end
+$var wire 1 E# s5 $end
+$var wire 1 F# s4 $end
+$var wire 1 G# s3 $end
+$var wire 1 H# s2 $end
+$var wire 1 I# s10 $end
+$var wire 1 J# s1 $end
+$var wire 1 K# s0 $end
+$var wire 1 =# cry $end
+$scope module half_adder_i0 $end
+$var wire 1 A# a $end
+$var wire 1 :# b $end
+$var wire 1 C# cry $end
+$var wire 1 I# sum $end
+$upscope $end
+$scope module half_adder_i1 $end
+$var wire 1 D# a $end
+$var wire 1 C# b $end
+$var wire 1 F# cry $end
+$var wire 1 B# sum $end
+$upscope $end
+$scope module half_adder_i2 $end
+$var wire 1 G# a $end
+$var wire 1 F# b $end
+$var wire 1 J# cry $end
+$var wire 1 E# sum $end
+$upscope $end
+$scope module half_adder_i3 $end
+$var wire 1 K# a $end
+$var wire 1 J# b $end
+$var wire 1 =# cry $end
+$var wire 1 H# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module four_bit_mux_i2 $end
+$var wire 1 . sel $end
+$var wire 4 L# y [3:0] $end
+$var wire 1 M# s9 $end
+$var wire 1 N# s8 $end
+$var wire 1 O# s7 $end
+$var wire 1 P# s6 $end
+$var wire 1 Q# s5 $end
+$var wire 1 R# s4 $end
+$var wire 1 S# s3 $end
+$var wire 1 T# s2 $end
+$var wire 1 U# s11 $end
+$var wire 1 V# s10 $end
+$var wire 1 W# s1 $end
+$var wire 1 X# s0 $end
+$var wire 4 Y# b [3:0] $end
+$var wire 4 Z# a [3:0] $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 X# a $end
+$var wire 1 W# b $end
+$var wire 1 . s $end
+$var wire 1 T# y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 S# a $end
+$var wire 1 R# b $end
+$var wire 1 . s $end
+$var wire 1 Q# y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 P# a $end
+$var wire 1 O# b $end
+$var wire 1 . s $end
+$var wire 1 N# y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 M# a $end
+$var wire 1 V# b $end
+$var wire 1 . s $end
+$var wire 1 U# y $end
+$upscope $end
+$upscope $end
+$scope module four_bit_mux_i4 $end
+$var wire 4 [# a [3:0] $end
+$var wire 1 - sel $end
+$var wire 4 \# y [3:0] $end
+$var wire 1 ]# s9 $end
+$var wire 1 ^# s8 $end
+$var wire 1 _# s7 $end
+$var wire 1 `# s6 $end
+$var wire 1 a# s5 $end
+$var wire 1 b# s4 $end
+$var wire 1 c# s3 $end
+$var wire 1 d# s2 $end
+$var wire 1 e# s11 $end
+$var wire 1 f# s10 $end
+$var wire 1 g# s1 $end
+$var wire 1 h# s0 $end
+$var wire 4 i# b [3:0] $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 h# a $end
+$var wire 1 g# b $end
+$var wire 1 - s $end
+$var wire 1 d# y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 c# a $end
+$var wire 1 b# b $end
+$var wire 1 - s $end
+$var wire 1 a# y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 `# a $end
+$var wire 1 _# b $end
+$var wire 1 - s $end
+$var wire 1 ^# y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 ]# a $end
+$var wire 1 f# b $end
+$var wire 1 - s $end
+$var wire 1 e# y $end
+$upscope $end
+$upscope $end
+$scope module four_bit_reg_i1 $end
+$var wire 1 ! clk $end
+$var wire 4 j# d [3:0] $end
+$var wire 1 $ enable $end
+$var wire 4 k# q [3:0] $end
+$var wire 1 # reset $end
+$var wire 1 l# s8 $end
+$var wire 1 m# s7 $end
+$var wire 1 n# s6 $end
+$var wire 1 o# s5 $end
+$var wire 1 p# s4 $end
+$var wire 1 q# s3 $end
+$var wire 1 r# s2 $end
+$var wire 1 s# s1 $end
+$var wire 4 t# s0 [3:0] $end
+$var wire 4 u# q_temp [3:0] $end
+$scope module DIG_D_FF_AS_1bit_i1 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 s# D $end
+$var wire 1 o# Q $end
+$var wire 1 v# Set $end
+$var wire 1 w# \~Q $end
+$var parameter 32 x# Default $end
+$var reg 1 y# state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i2 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 r# D $end
+$var wire 1 n# Q $end
+$var wire 1 z# Set $end
+$var wire 1 {# \~Q $end
+$var parameter 32 |# Default $end
+$var reg 1 }# state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i3 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 q# D $end
+$var wire 1 m# Q $end
+$var wire 1 ~# Set $end
+$var wire 1 !$ \~Q $end
+$var parameter 32 "$ Default $end
+$var reg 1 #$ state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i4 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 p# D $end
+$var wire 1 l# Q $end
+$var wire 1 $$ Set $end
+$var wire 1 %$ \~Q $end
+$var parameter 32 &$ Default $end
+$var reg 1 '$ state $end
+$upscope $end
+$scope module four_bit_mux_i0 $end
+$var wire 4 ($ a [3:0] $end
+$var wire 4 )$ b [3:0] $end
+$var wire 1 $ sel $end
+$var wire 4 *$ y [3:0] $end
+$var wire 1 +$ s9 $end
+$var wire 1 ,$ s8 $end
+$var wire 1 -$ s7 $end
+$var wire 1 .$ s6 $end
+$var wire 1 /$ s5 $end
+$var wire 1 0$ s4 $end
+$var wire 1 1$ s3 $end
+$var wire 1 2$ s2 $end
+$var wire 1 3$ s11 $end
+$var wire 1 4$ s10 $end
+$var wire 1 5$ s1 $end
+$var wire 1 6$ s0 $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 6$ a $end
+$var wire 1 5$ b $end
+$var wire 1 $ s $end
+$var wire 1 2$ y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 1$ a $end
+$var wire 1 0$ b $end
+$var wire 1 $ s $end
+$var wire 1 /$ y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 .$ a $end
+$var wire 1 -$ b $end
+$var wire 1 $ s $end
+$var wire 1 ,$ y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 +$ a $end
+$var wire 1 4$ b $end
+$var wire 1 $ s $end
+$var wire 1 3$ y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module program_ram_i3 $end
+$var wire 4 7$ addr [3:0] $end
+$var wire 1 ! clk $end
+$var wire 4 8$ data_in [3:0] $end
+$var wire 1 , write $end
+$var wire 4 9$ data_out [3:0] $end
+$scope module DIG_RAMDualPort_i0 $end
+$var wire 4 :$ A [3:0] $end
+$var wire 1 ! C $end
+$var wire 4 ;$ D [3:0] $end
+$var wire 4 <$ Din [3:0] $end
+$var wire 1 =$ ld $end
+$var wire 1 , str $end
+$var parameter 32 >$ AddrBits $end
+$var parameter 32 ?$ Bits $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module controller_i1 $end
+$var wire 1 ! clk $end
+$var wire 4 @$ data_bus [3:0] $end
+$var wire 1 ) load_ir $end
+$var wire 1 # reset $end
+$var wire 2 A$ step_reg [1:0] $end
+$var wire 2 B$ s1 [1:0] $end
+$var wire 6 C$ s0 [5:0] $end
+$var wire 14 D$ rom_out [13:0] $end
+$var wire 4 E$ instr_reg [3:0] $end
+$var wire 10 F$ control [9:0] $end
+$scope module DIG_ROM_64X14_microcodeROM_i2 $end
+$var wire 6 G$ A [5:0] $end
+$var wire 1 H$ sel $end
+$var reg 14 I$ D [13:0] $end
+$upscope $end
+$scope module four_bit_reg_i0 $end
+$var wire 1 ! clk $end
+$var wire 4 J$ d [3:0] $end
+$var wire 1 ) enable $end
+$var wire 4 K$ q [3:0] $end
+$var wire 1 # reset $end
+$var wire 1 L$ s8 $end
+$var wire 1 M$ s7 $end
+$var wire 1 N$ s6 $end
+$var wire 1 O$ s5 $end
+$var wire 1 P$ s4 $end
+$var wire 1 Q$ s3 $end
+$var wire 1 R$ s2 $end
+$var wire 1 S$ s1 $end
+$var wire 4 T$ s0 [3:0] $end
+$var wire 4 U$ q_temp [3:0] $end
+$scope module DIG_D_FF_AS_1bit_i1 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 S$ D $end
+$var wire 1 O$ Q $end
+$var wire 1 V$ Set $end
+$var wire 1 W$ \~Q $end
+$var parameter 32 X$ Default $end
+$var reg 1 Y$ state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i2 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 R$ D $end
+$var wire 1 N$ Q $end
+$var wire 1 Z$ Set $end
+$var wire 1 [$ \~Q $end
+$var parameter 32 \$ Default $end
+$var reg 1 ]$ state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i3 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 Q$ D $end
+$var wire 1 M$ Q $end
+$var wire 1 ^$ Set $end
+$var wire 1 _$ \~Q $end
+$var parameter 32 `$ Default $end
+$var reg 1 a$ state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i4 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 P$ D $end
+$var wire 1 L$ Q $end
+$var wire 1 b$ Set $end
+$var wire 1 c$ \~Q $end
+$var parameter 32 d$ Default $end
+$var reg 1 e$ state $end
+$upscope $end
+$scope module four_bit_mux_i0 $end
+$var wire 4 f$ a [3:0] $end
+$var wire 4 g$ b [3:0] $end
+$var wire 1 ) sel $end
+$var wire 4 h$ y [3:0] $end
+$var wire 1 i$ s9 $end
+$var wire 1 j$ s8 $end
+$var wire 1 k$ s7 $end
+$var wire 1 l$ s6 $end
+$var wire 1 m$ s5 $end
+$var wire 1 n$ s4 $end
+$var wire 1 o$ s3 $end
+$var wire 1 p$ s2 $end
+$var wire 1 q$ s11 $end
+$var wire 1 r$ s10 $end
+$var wire 1 s$ s1 $end
+$var wire 1 t$ s0 $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 t$ a $end
+$var wire 1 s$ b $end
+$var wire 1 ) s $end
+$var wire 1 p$ y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 o$ a $end
+$var wire 1 n$ b $end
+$var wire 1 ) s $end
+$var wire 1 m$ y $end
+$upscope $end
+$scope module two_bit_mux_i2 $end
+$var wire 1 l$ a $end
+$var wire 1 k$ b $end
+$var wire 1 ) s $end
+$var wire 1 j$ y $end
+$upscope $end
+$scope module two_bit_mux_i3 $end
+$var wire 1 i$ a $end
+$var wire 1 r$ b $end
+$var wire 1 ) s $end
+$var wire 1 q$ y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module two_bit_reg_i1 $end
+$var wire 1 ! clk $end
+$var wire 2 u$ d [1:0] $end
+$var wire 1 v$ enable $end
+$var wire 2 w$ q [1:0] $end
+$var wire 1 # reset $end
+$var wire 1 x$ s4 $end
+$var wire 1 y$ s3 $end
+$var wire 1 z$ s2 $end
+$var wire 1 {$ s1 $end
+$var wire 2 |$ s0 [1:0] $end
+$var wire 2 }$ q_temp [1:0] $end
+$scope module DIG_D_FF_AS_1bit_i0 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 {$ D $end
+$var wire 1 y$ Q $end
+$var wire 1 ~$ Set $end
+$var wire 1 !% \~Q $end
+$var parameter 32 "% Default $end
+$var reg 1 #% state $end
+$upscope $end
+$scope module DIG_D_FF_AS_1bit_i1 $end
+$var wire 1 ! C $end
+$var wire 1 # Clr $end
+$var wire 1 z$ D $end
+$var wire 1 x$ Q $end
+$var wire 1 $% Set $end
+$var wire 1 %% \~Q $end
+$var parameter 32 &% Default $end
+$var reg 1 '% state $end
+$upscope $end
+$scope module two_bit_bus_mux_i2 $end
+$var wire 2 (% a [1:0] $end
+$var wire 2 )% b [1:0] $end
+$var wire 1 v$ sel $end
+$var wire 2 *% y [1:0] $end
+$var wire 1 +% s5 $end
+$var wire 1 ,% s4 $end
+$var wire 1 -% s3 $end
+$var wire 1 .% s2 $end
+$var wire 1 /% s1 $end
+$var wire 1 0% s0 $end
+$scope module two_bit_mux_i0 $end
+$var wire 1 0% a $end
+$var wire 1 /% b $end
+$var wire 1 v$ s $end
+$var wire 1 .% y $end
+$upscope $end
+$scope module two_bit_mux_i1 $end
+$var wire 1 -% a $end
+$var wire 1 ,% b $end
+$var wire 1 v$ s $end
+$var wire 1 +% y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b0 &%
+b0 "%
+b0 d$
+b0 `$
+b0 \$
+b0 X$
+b100 ?$
+b100 >$
+b0 &$
+b0 "$
+b0 |#
+b0 x#
+b0 0"
+b0 ,"
+b0 ("
+b0 $"
+b0 `
+b0 \
+b0 X
+b0 T
+$end
+#0
+$dumpvars
+00%
+0/%
+0.%
+0-%
+1,%
+1+%
+b1 *%
+b1 )%
+b0 (%
+0'%
+1%%
+0$%
+0#%
+1!%
+0~$
+b0 }$
+b1 |$
+0{$
+1z$
+0y$
+0x$
+b0 w$
+1v$
+b1 u$
+0t$
+0s$
+0r$
+0q$
+0p$
+0o$
+0n$
+0m$
+0l$
+0k$
+0j$
+0i$
+b0 h$
+b0 g$
+b0 f$
+0e$
+1c$
+0b$
+0a$
+1_$
+0^$
+0]$
+1[$
+0Z$
+0Y$
+1W$
+0V$
+b0 U$
+b0 T$
+0S$
+0R$
+0Q$
+0P$
+0O$
+0N$
+0M$
+0L$
+b0 K$
+b0 J$
+b1001000000101 I$
+1H$
+b0 G$
+b1000000101 F$
+b0 E$
+b1001000000101 D$
+b0 C$
+b1 B$
+b0 A$
+b0 @$
+1=$
+b0 <$
+b0 ;$
+b0 :$
+b0 9$
+b0 8$
+b0 7$
+06$
+05$
+04$
+03$
+02$
+01$
+00$
+0/$
+0.$
+0-$
+0,$
+0+$
+b0 *$
+b0 )$
+b0 ($
+0'$
+1%$
+0$$
+0#$
+1!$
+0~#
+0}#
+1{#
+0z#
+0y#
+1w#
+0v#
+b0 u#
+b0 t#
+0s#
+0r#
+0q#
+0p#
+0o#
+0n#
+0m#
+0l#
+b0 k#
+b0 j#
+b0 i#
+0h#
+0g#
+0f#
+0e#
+0d#
+0c#
+0b#
+0a#
+0`#
+0_#
+0^#
+0]#
+b0 \#
+b0 [#
+b0 Z#
+b0 Y#
+0X#
+0W#
+0V#
+0U#
+0T#
+0S#
+0R#
+0Q#
+0P#
+0O#
+0N#
+0M#
+b0 L#
+0K#
+0J#
+0I#
+0H#
+0G#
+0F#
+0E#
+0D#
+0C#
+0B#
+0A#
+b0 @#
+b0 ?#
+b0 >#
+0=#
+b0 <#
+b0 ;#
+0:#
+b0 9#
+08#
+07#
+06#
+05#
+04#
+03#
+02#
+01#
+00#
+0/#
+0.#
+0-#
+b0 ,#
+b0 +#
+0*#
+0)#
+0(#
+0'#
+0&#
+0%#
+0$#
+0##
+0"#
+0!#
+0~"
+0}"
+b0 |"
+b0 {"
+b0 z"
+b0 y"
+b0 x"
+0w"
+0v"
+0u"
+0t"
+0s"
+0r"
+0q"
+0p"
+0o"
+0n"
+0m"
+0l"
+0k"
+0j"
+0i"
+0h"
+b0 g"
+b0 f"
+b0 e"
+b0 d"
+b0 c"
+b0 b"
+b0 a"
+b0 `"
+b0 _"
+0^"
+0]"
+b0 \"
+b0 ["
+0Z"
+b0 Y"
+b0 X"
+b0 W"
+b0 V"
+b0 U"
+b0 T"
+b0 S"
+b0 R"
+b0 Q"
+b0 P"
+0O"
+0N"
+0M"
+1L"
+0K"
+0J"
+0I"
+0H"
+0G"
+0F"
+0E"
+0D"
+b1 C"
+1B"
+b0 A"
+b1 @"
+0?"
+0>"
+1="
+1<"
+0;"
+0:"
+09"
+08"
+07"
+06"
+05"
+04"
+b1 3"
+b0 2"
+01"
+1/"
+0."
+0-"
+1+"
+0*"
+0)"
+1'"
+0&"
+0%"
+1#"
+0""
+b1 !"
+b0 ~
+b1 }
+0|
+0{
+0z
+1y
+0x
+0w
+0v
+0u
+b0 t
+b0 s
+b1 r
+b0 q
+b0 p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+b0 c
+b0 b
+0a
+1_
+0^
+0]
+1[
+0Z
+0Y
+1W
+0V
+0U
+1S
+0R
+b0 Q
+b0 P
+b0 O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+b0 F
+b0 E
+b0 D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+02
+b0 1
+b0 0
+1/
+0.
+1-
+0,
+0+
+b0 *
+1)
+b1000000101 (
+0'
+0&
+0%
+0$
+1#
+b0 "
+0!
+$end
+#5
+1!
+#10
+0#
+0!
+#15
+1r#
+b100 t#
+b100 *$
+1/$
+10$
+1$#
+b100 R"
+b100 X"
+b100 ["
+b100 a"
+b100 ,#
+b100 j#
+b100 )$
+11#
+b100 c"
+b100 g"
+b100 {"
+1j"
+12#
+1m"
+b100 \"
+b100 f"
+b100 y"
+b100 9#
+b100 ;#
+b100 @#
+1E#
+1G#
+b100 <#
+b100 ?#
+1n$
+1i
+b100 0
+b100 5
+b100 Q
+b100 p
+b100 S"
+b100 @$
+b100 J$
+b100 g$
+b100 W"
+b100 `"
+b100 >#
+b100 L#
+b100 8$
+b100 <$
+1Q#
+1z
+1S#
+0y
+15"
+b100 V"
+b100 Z#
+b100 \#
+1a#
+0z$
+b10 }
+b10 3"
+0<"
+b0 |$
+b0 *%
+0+%
+16"
+1b#
+0="
+1E"
+b100 U"
+b100 i#
+b100 9$
+b100 ;$
+b1 *
+b1 6
+b1 7
+b1 Q"
+b1 7$
+b1 :$
+1@
+0,%
+0)
+1$
+1%
+b10 r
+b10 !"
+b10 @"
+b10 C"
+0L"
+1F"
+b0 B$
+b0 u$
+b0 )%
+b1000110100 (
+b1000110100 F$
+0/"
+14"
+1D"
+18
+0%%
+1-%
+b1000110100 D$
+b1000110100 I$
+b1 3
+b1 E
+b1 q
+b1 s
+b1 t
+b1 A"
+b1 ~
+b1 2"
+1u
+11"
+b1 C$
+b1 G$
+b1 A$
+b1 w$
+b1 }$
+b1 (%
+1x$
+1'%
+1!
+#20
+0!
+#25
+1!#
+1s"
+1/#
+1i"
+02#
+0m"
+1B#
+1Q$
+b10 \"
+b10 f"
+b10 y"
+b10 9#
+b10 ;#
+b10 @#
+0E#
+1D#
+1j$
+0G#
+b10 <#
+b10 ?#
+1k$
+1f
+0n$
+0i
+1N#
+b10 0
+b10 5
+b10 Q
+b10 p
+b10 S"
+b10 @$
+b10 J$
+b10 g$
+b10 W"
+b10 `"
+b10 >#
+b10 L#
+b10 8$
+b10 <$
+0Q#
+1P#
+0S#
+1^#
+1y
+b10 V"
+b10 Z#
+b10 \#
+0a#
+03#
+1z$
+0R$
+1r#
+00$
+b11 }
+b11 3"
+1<"
+0)#
+b0 b"
+b0 |"
+b0 +#
+0##
+b1 |$
+b1 *%
+1+%
+b10 T$
+b10 h$
+0m$
+b100 t#
+b100 *$
+1/$
+b0 R"
+b0 X"
+b0 ["
+b0 a"
+b0 ,#
+b0 j#
+b0 )$
+01#
+1_#
+0b#
+1$#
+0n"
+0]"
+19
+1="
+b10 U"
+b10 i#
+b10 9$
+b10 ;$
+b10 *
+b10 6
+b10 7
+b10 Q"
+b10 7$
+b10 :$
+0@
+b110 c"
+b110 g"
+b110 {"
+1j"
+0o"
+0%#
+1,%
+1)
+0$
+0%
+b11 r
+b11 !"
+b11 @"
+b11 C"
+1L"
+0F"
+b0 d"
+b0 z"
+b1 B$
+b1 u$
+b1 )%
+b1000000101 (
+b1000000101 F$
+0+"
+17"
+1G"
+1;
+1/"
+04"
+0D"
+08
+0{#
+11$
+1R#
+1l"
+1%%
+0-%
+b1001000000101 D$
+b1001000000101 I$
+1v
+1-"
+b10 3
+b10 E
+b10 q
+b10 s
+b10 t
+b10 A"
+b10 ~
+b10 2"
+0u
+01"
+b100 1
+b100 P"
+b100 Y"
+b100 _"
+b100 e"
+b100 x"
+b100 Y#
+b100 k#
+b100 u#
+b100 ($
+1n#
+1}#
+b0 C$
+b0 G$
+b0 A$
+b0 w$
+b0 }$
+b0 (%
+0x$
+0'%
+1!
+#30
+0!
+#35
+0!#
+b100 c"
+b100 g"
+b100 {"
+0s"
+0/#
+0i"
+b0 \"
+b0 f"
+b0 y"
+b0 9#
+b0 ;#
+b0 @#
+0B#
+0D#
+b0 <#
+b0 ?#
+0k$
+0f
+b0 0
+b0 5
+b0 Q
+b0 p
+b0 S"
+b0 @$
+b0 J$
+b0 g$
+b0 W"
+b0 `"
+b0 >#
+b0 L#
+b0 8$
+b0 <$
+0N#
+09
+1Q$
+0P#
+1z
+1y
+19"
+b10 T$
+b10 h$
+1j$
+b0 V"
+b0 Z#
+b0 \#
+0^#
+15"
+b11 }
+b11 3"
+1<"
+06"
+1H"
+0f#
+0_#
+12
+0="
+0E"
+1I"
+b0 U"
+b0 i#
+b0 9$
+b0 ;$
+b0 *
+b0 6
+b0 7
+b0 Q"
+b0 7$
+b0 :$
+0@
+0)
+0-
+0/
+b100 r
+b100 !"
+b100 @"
+b100 C"
+0L"
+1F"
+b0 (
+b0 F$
+0/"
+14"
+1D"
+18
+0_$
+1l$
+0%%
+1-%
+b1000000000000 D$
+b1000000000000 I$
+b11 3
+b11 E
+b11 q
+b11 s
+b11 t
+b11 A"
+b11 ~
+b11 2"
+1u
+11"
+b10 E$
+b10 K$
+b10 U$
+b10 f$
+1M$
+1a$
+b1001 C$
+b1001 G$
+b1 A$
+b1 w$
+b1 }$
+b1 (%
+1x$
+1'%
+1!
+#40
+0!
+#45
+1!
+#50
+0!
+#55
+1!
+#60
+0!
+#65
+1!
+#69
